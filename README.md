@@ -26,16 +26,16 @@ dotnet build
 dotnet run
 ```
 
-Verified locally: **build succeeded with 0 warnings and 0 errors**.
+Current build status: **0 warnings and 0 errors**.
 
 ## Design notes
 
-The project deliberately keeps its core loop in one small codebase. Speed progression, resource pressure and collision risk reinforce one another: staying alive increases the difficulty while fuel pickups force lane decisions.
+The core loop stays in one small codebase. Speed progression, resource pressure and collision risk reinforce one another: staying alive increases the difficulty while fuel pickups force lane decisions.
 
-## Asset provenance
+## 3D model credits
 
 The two 3D models in `Content/`—`player_vehicle.fbx` and `fuel_canister.fbx`—were designed and modelled by **Aziz Zarrouki** specifically for FuelRunner. They are project assets, not downloaded stock models.
 
-## Repository scope
+## Included files
 
-Source code and the assets required for the current build are included. Generated build output is excluded. No blanket license is granted for the project-specific 3D models.
+The repository includes the source and assets required for the current build; generated output is ignored. The project-specific 3D models are not offered as reusable stock assets.
